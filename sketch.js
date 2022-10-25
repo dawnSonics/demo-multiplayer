@@ -22,8 +22,8 @@ function setup() {
 			conn.on('data', receiveData);
 			div.html('Connected to session ' + sessionId)
 		} else {
-			// div.html('Invite link: <input type=text style="width: 300px;" value="https://dawnsonics.github.io/demo-multiplayer/?sessionId=' + id + '">')
-			div.html('Invite link: <input type=text style="width: 300px;" value="localhost:5500/demo-multiplayer/?sessionId=' + id + '">')
+			div.html('Invite link: <input type=text style="width: 300px;" value="https://dawnsonics.github.io/demo-multiplayer/?sessionId=' + id + '">')
+			// div.html('Invite link: <input type=text style="width: 300px;" value="localhost:5500/demo-multiplayer/?sessionId=' + id + '">')
 		}
 	});
 
